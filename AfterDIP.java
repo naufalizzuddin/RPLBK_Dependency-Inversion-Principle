@@ -33,7 +33,7 @@ class Main {
 	public static void main(String[] args) {
 		tokoOnline paymentGopay = new tokoOnline(new Gopay());
 		tokoOnline paymentOVO = new tokoOnline(new OVO());
-        paymentGopay.checkout(25000);
-        paymentOVO.checkout(100000);
+        	paymentGopay.checkout(25000);
+        	paymentOVO.checkout(100000);
 	}
 }
